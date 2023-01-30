@@ -28,7 +28,19 @@ public class Main {
         }
         System.out.println();
 
+        System.out.println("Задача 3");
 
+        double speed = 61;
+
+        if(speed > 60)
+        {
+            System.out.println("Если скорость " + speed + " км/ч, то придется заплатить штраф");
+        }
+        else
+        {
+            System.out.println("Если скорость " + speed + " км/ч, то можно ездить спокойно");
+        }
+        System.out.println();
 
     }
 }
