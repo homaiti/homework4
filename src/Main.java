@@ -15,6 +15,19 @@ public class Main {
         }
         System.out.println();
 
+        System.out.println("Задача 2");
+        double temp = 4;
+
+        if(temp < 5)
+        {
+            System.out.println("На улице " + temp + " градусов, нужно надеть шапку");
+        }
+        else
+        {
+            System.out.println("На улице " + temp + " градусов можно идти без шапки");
+        }
+        System.out.println();
+
 
 
     }
