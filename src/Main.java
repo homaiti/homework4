@@ -42,5 +42,40 @@ public class Main {
         }
         System.out.println();
 
+        System.out.println("Задача 4");
+
+        int ageMan = 2;
+        boolean ageTwoSix = ageMan >= 2 && ageMan <= 6;
+        boolean ageSevenEighteen = ageMan >= 7 && ageMan < 18;
+        boolean ageEighteenTwentyFour = ageMan >= 18 && ageMan < 24;
+        boolean ageMoreTwentyFour = ageMan >= 24;
+        String error = "";
+
+        if(ageTwoSix)
+        {
+            System.out.println("Если возраст человека равен " + ageMan + ", то ему нужно ходить в детский сад");
+        }
+
+        if(ageSevenEighteen)
+        {
+            System.out.println("Если возраст человека равен " + ageMan + ", то ему нужно ходить в школу");
+        }
+
+        if(ageEighteenTwentyFour)
+        {
+            System.out.println("Если возраст человека равен " + ageMan + ", то его место в университете");
+        }
+
+        if(ageMoreTwentyFour)
+        {
+            System.out.println("Если возраст человека равен " + ageMan + ", то ему пора ходить на работу");
+        }
+        else
+        {
+            error = "Значение не корректно";
+        }
+
+        System.out.println(error);
+
     }
 }
