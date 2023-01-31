@@ -98,6 +98,51 @@ public class Main {
 
         System.out.println();
 
+        System.out.println("Задача 6");
+
+        int passCount = 52;
+        int passMax = 102;
+        int passSit = 60;
+        int passStand = passMax - passSit;
+
+        if(passCount < passSit)
+        {
+            System.out.println("В вагоне есть места " + (passSit - passCount) + " сидячих мест и "
+                    + passStand + " стоячих мест");
+        }
+        else if (passCount > passSit && passCount < passMax)
+        {
+            System.out.println("В вагоне нет сидячих мест но есть "
+                    + (passMax - passCount) + " стоячих мест");
+        }
+        else
+        {
+            System.out.println("Вагон уже полностью забит");
+        }
+
+        System.out.println();
+
+        System.out.println("Задача 7");
+
+        int one = 100500;
+        int two = 3;
+        int three = 2;
+
+        System.out.println("Даны три числа Первое: " + one + " Второе: " + two + " Третье: " + three);
+
+        if (one > two && one > three)
+        {
+            System.out.println("Число " + one + " наибольшее из них");
+        } else if (two > one && two > three)
+        {
+            System.out.println("Число " + two + " наибольшее из них");
+        }
+        else
+        {
+            System.out.println("Число " + three + " наибольшее из них");
+        }
+
+
 
 
     }
