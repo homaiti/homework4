@@ -124,16 +124,17 @@ public class Main {
 
         System.out.println("Задача 7");
 
-        int one = 100500;
-        int two = 3;
-        int three = 2;
+        int one = 3;
+        int two = 2;
+        int three = 1;
 
         System.out.println("Даны три числа Первое: " + one + " Второе: " + two + " Третье: " + three);
 
-        if (one > two && one > three)
+        if (one > two && one > three )
         {
             System.out.println("Число " + one + " наибольшее из них");
-        } else if (two > one && two > three)
+        }
+        else if (two > one && two > three)
         {
             System.out.println("Число " + two + " наибольшее из них");
         }
