@@ -1,0 +1,4 @@
+# Project exclude paths
+/out/
+/homework4.iml
+/.idea/
